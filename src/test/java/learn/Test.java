@@ -45,6 +45,8 @@ public class Test {
 			driver.findElement(By.xpath("//input[@value='option2']")).click();
 			driver.findElement(By.name("bday")).sendKeys("05/30/1998");
 			driver.findElement(By.xpath("//input[@class='btn btn-success']")).click();
+			
+			driver.quit();
 
 			return true;
 

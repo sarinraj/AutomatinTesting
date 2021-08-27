@@ -27,6 +27,7 @@ public class Program {
 		int j =1;
 		int Number=0;
 		
+		System.out.print(i+" "+j+" ");
 		for (int k=1;k<=10;k++) {
 			Number = i+j;
 			i=j;
@@ -34,6 +35,12 @@ public class Program {
 			System.out.print(Number+" ");// Fibonacci series
 			
 		}
-		 
+		/*
+		 * int i =0; int j =1; int Number=0;
+		 * 
+		 * int k=1; do { Number = i+j; i=j; j=Number; System.out.print(Number+" "); k++;
+		 * 
+		 * }while (k<=10);
+		 */
 	}
 }
